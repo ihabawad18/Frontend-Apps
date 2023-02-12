@@ -1,0 +1,113 @@
+.cart_header{
+  color: #3e2093;
+  text-align: center;
+  margin-top: 5%;
+
+}
+.hr_cart{
+  width: 25%;
+  border: 2px solid #3e2093;
+  border-radius: 40%;
+}
+.Cards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+.card{
+  display: grid;
+  grid-template-columns: 0.75fr 1.2fr 0.75fr;
+  grid-template-rows: 250px;
+  place-items:center;
+  width: 50%;
+  margin-bottom: 3rem;
+  border: 1px solid  #3e2093;
+  border-radius: 1rem;
+}
+.prod_cont{
+  width:200px
+}
+.desc,.pr,.count,.total{
+  color: #3e2093;
+  font-weight: bold;
+  padding: 3%;
+}
+
+
+.plus-minus-input {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.plus-minus-input .input-group-field {
+  text-align: center;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 1rem;
+}
+
+.plus-minus-input .input-group-field::-webkit-inner-spin-button,
+.plus-minus-input .input-group-field ::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+          appearance: none;
+}
+.plus-minus-input{
+  margin-right: 40%;
+}
+.input-group-button{
+  margin-bottom: 30%;
+}
+.plus-minus-input .input-group-button .circle {
+  border-radius: 50%;
+  padding: 0.25em 0.8em;
+  background-color: #3e2093;
+  cursor: pointer;
+
+}
+.plus-minus-input:hover, .input-group-button:hover, .circle:hover {
+
+
+}
+.btn_sum {
+  -webkit-border-radius: 31;
+  -moz-border-radius: 31;
+  border-radius: 31px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 0.9rem;
+  background: #3e2093;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn_sum:hover {
+  background-color: white;
+  color: #3e2093;
+  border: 1px solid #3e2093;
+}
+
+.counter_icon{
+
+  color: white;
+}
+.sum{
+  width: 15%;
+  margin: auto;
+  text-align: center;
+  border: 4px solid #3e2093;
+  margin-bottom: 5%;
+  padding: 2%;
+}
+.sum_desc,.press{
+  color: #3e2093;
+
+}
+.ops{
+  height: 77vh;
+  /* margin-bottom: 29.3%; */
+  color: #3e2093;
+  text-align: center;
+}

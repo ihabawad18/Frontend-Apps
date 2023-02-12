@@ -1,0 +1,14 @@
+.foot{
+  background-color: #3e2093;
+  height: 10vh;
+  display: flex;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
+}
+.foot h5{
+  color: white;
+  font-weight: 300;
+  text-align: center;
+}
